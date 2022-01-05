@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class AllWordsCounter {
 	Map<String, Integer> wordMap;
 	
@@ -23,7 +22,6 @@ public class AllWordsCounter {
 			currentCount++;
 			wordMap.put(word, currentCount);
 		}
-
 	}
 	
 	/** 
@@ -43,5 +41,4 @@ public class AllWordsCounter {
 		Arrays.sort(trimmed);
 		return trimmed;
 	}
-
 }
