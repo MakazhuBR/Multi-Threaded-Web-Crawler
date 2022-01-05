@@ -1,6 +1,5 @@
 /**
  * Counts the number of times a word has occured.
- * @author shilad
  */
 public class WordCount implements Comparable<WordCount>{
 	private int count;
@@ -30,6 +29,7 @@ public class WordCount implements Comparable<WordCount>{
 	public int getCount() {
 		return count;
 	}
+	
 	/**
 	 * @return the word
 	 */
@@ -43,6 +43,10 @@ public class WordCount implements Comparable<WordCount>{
 	public void increment() {
 		count++;
 	}
+	
+	/*
+	 * @param WordCount
+	 */
 
 	public int compareTo(WordCount o) {
 		if (count != o.getCount()) {
